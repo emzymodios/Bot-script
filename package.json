@@ -1,0 +1,33 @@
+{
+  "name": "script-hub-bot",
+  "version": "2.0.0",
+  "description": "Premium Discord Bot - Script Hub Store with Beautiful Menu System",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "script-hub",
+    "roblox",
+    "menu",
+    "slash-commands"
+  ],
+  "author": "Script Hub Team",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
